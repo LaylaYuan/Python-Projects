@@ -84,3 +84,8 @@ Three representative and successful technology companies are selected for this p
     
     4.run Recommendation Engine.py
     The final deliverable recommendation engine will the model with better performance.
+    
+    
+ **Delivery**
+  
+  The final delivery will be a system where a user ID is typed in, several recommended Uer ID will be put out.
