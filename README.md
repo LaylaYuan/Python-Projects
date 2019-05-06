@@ -46,25 +46,15 @@ This project aims to create a real-time updating dashboard to show the variation
 
 Three representative and successful technology companies are selected for this project - Google, Microsoft and Tsla.
 
-  **Database**
-  
-  There are 3 databases in total - _stock.db, new_stock3.db_, and _recommend.db_ 
+  **Database** - There are 3 databases in total - _stock.db, new_stock3.db_, and _recommend.db_ 
   schedule is used to make it run automatically to collect daily stock price every two minute.
 
-  **NLP** 
+  **NLP** - _MSFT.py, TSLA.py_ and _GOOGLE.py_ perform sentiment analylsis by scrawling five most relevant news online and labeling   every sentences with neutral, positive or negative.
   
-  _MSFT.py, TSLA.py_ and _GOOGLE.py_ perform sentiment analylsis by scrawling five most relevant news online and labeling   every sentences with neutral, positive or negative.
+  **Predict** - _Predict_Stock_Price.py_ is to predict the change of stock price with **Support Vector Regression**
   
-  **Predict**
-  
-  _Predict_Stock_Price.py_ is to predict the change of stock price with **Support Vector Regression**
-  
-  **Recommand Score**
-  
-  _Recommend_Score.py_ is to calculate and display the score of recommandation for buying, holding or selling selected company's stocks.
+  **Recommand Score** - _Recommend_Score.py_ is to calculate and display the score of recommandation for buying, holding or selling selected company's stocks.
 
-  **Dashborad**
-  
-  _dashboard_new.py_ creates the final dashboard which is comprised by current stock price, historical stock price, sentiment analysis and recommendation score.
+  **Dashborad** -  _dashboard_new.py_ creates the final dashboard which is comprised by current stock price, historical stock price, sentiment analysis and recommendation score.
 
 
