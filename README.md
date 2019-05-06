@@ -2,7 +2,7 @@
 
 Hi there, this is Layla. Nice to meet you :) 
 
-I will post some of the projects that I have done with python on this page, hope you enjoy it.
+I post some of the projects that I have done with python on this page, hope you enjoy it.
 
 Please feel free to comment, hope to communicate with all of you. 
 
