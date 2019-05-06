@@ -58,6 +58,6 @@ Three representative and successful technology companies are selected for this p
 
   **Dashborad** -  _dashboard_new.py_ creates the final dashboard which is comprised by current stock price, historical stock price, sentiment analysis and recommendation score.
   
-  ![dash](Stock Price Dashboard/dashboard.png)
+  ![dashborad](Stock Price Dashboard/dashboard.png)
 
 
