@@ -13,8 +13,19 @@ Please feel free to comment, hope to communicate with all of you.
   The Titanic project develops algorithms to perform K-Means clustering on the Titanic passengers dataset in python. The Titanic passengers dataset includes five attributes (Fare, Age, Sex, Companion Count, Embarked) to describe each passenger and one target value ( Survive / Not Survive), the K-Means clustering aims to explore the relationship between the attributes and the survival by plotting one to one comparison.
   
 
-**_Conclusion_**
 
 After 6 iteration, the clustering is fixed, the plot below shows the outcome of the clustering by one to one comparsion of the attributes. 
+
+**_Conclusion_**
+
+  - People with low fare are survived more that people with high fare;
+
+  - People with fewer companion are survived more than people with more companion;
+  
+  - With the high companion group, young people survived more than older people;
+  
+  - People who are at the S and C embarked location are survived more than people at Q location;
+  
+  - More female survived than male; With the survived male, the portion of young people is bigger than that of older people; the portion of low companion count is smaller than that with high companion count.
 
 ![titanic](Titanic/lastiteration6.png)
