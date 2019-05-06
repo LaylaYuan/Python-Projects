@@ -17,4 +17,4 @@ Please feel free to comment, hope to communicate with all of you.
 
 After 6 iteration, the clustering is fixed, the plot below shows the outcome of the clustering by one to one comparsion of the attributes. 
 
-![titanic](Titanic/lastiteration6.png_
+![titanic](Titanic/lastiteration6.png)
