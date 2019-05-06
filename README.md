@@ -29,3 +29,7 @@ After 6 iteration, the clustering is fixed, the plot below shows the outcome of 
   - More female survived than male; With the survived male, the portion of young people is bigger than that of older people; the portion of low companion count is smaller than that with high companion count.
 
 ![titanic](Titanic/lastiteration6.png)
+
+**_Notes_**
+
+  There are 179 missing values in the original dataset, which takes a considerably big part of the dataset. The method that I chose to deal with the missing value is to delete them. however, after deleting the missing value, the outcome will be affected in some way. For example, the not survived people contributes majority of the missing value, so the outcome will be biased towards the survived people. And the proportion of survived people is higher than the actual proportion.
