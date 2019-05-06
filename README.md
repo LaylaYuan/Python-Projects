@@ -26,9 +26,12 @@ After 6 iteration, the clustering is fixed, the plot below shows the outcome of 
   
   - People who are at the S and C embarked location are survived more than people at Q location;
   
-  - More female survived than male; With the survived male, the portion of young people is bigger than that of older people; the portion of low companion count is smaller than that with high companion count.
+  - More female survived than male; for the survived male, the portion of young people is bigger than that of older people; the portion of low companion count is smaller than that of high companion count.
 
 ![titanic](Titanic/lastiteration6.png)
+
+- Blue represents **Survived**
+- Green represents **Not Survived**
 
 **_Notes_**
 
