@@ -39,7 +39,7 @@ After 6 iteration, the clustering is fixed, the plot below shows the outcome of 
   There are 179 missing values in the original dataset, which takes a considerably big part of the dataset. The method that I chose to deal with the missing value is to delete them. however, after deleting the missing value, the outcome will be affected in some way. For example, the not survived people contributes majority of the missing value, so the outcome will be biased towards the survived people. And the proportion of survived people is higher than the actual proportion.
   
   
-##Stock Price Dashboard
+## Stock Price Dashboard
 
 **_Description_**
 
@@ -57,5 +57,7 @@ Three representative and successful technology companies are selected for this p
   **Recommand Score** - _Recommend_Score.py_ is to calculate and display the score of recommandation for buying, holding or selling selected company's stocks.
 
   **Dashborad** -  _dashboard_new.py_ creates the final dashboard which is comprised by current stock price, historical stock price, sentiment analysis and recommendation score.
+  
+  ![](Stock Price Dashboard/dashboard.png)
 
 
