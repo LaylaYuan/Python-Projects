@@ -6,7 +6,7 @@ I post some of the projects that I have done with python on this page, hope you 
 
 Please feel free to comment, hope to communicate with all of you. 
 
-## Titanic
+## 1. Titanic
 
 **_Description_**
 
@@ -39,7 +39,7 @@ After 6 iteration, the clustering is fixed, the plot below shows the outcome of 
   There are 179 missing values in the original dataset, which takes a considerably big part of the dataset. The method that I chose to deal with the missing value is to delete them. however, after deleting the missing value, the outcome will be affected in some way. For example, the not survived people contributes majority of the missing value, so the outcome will be biased towards the survived people. And the proportion of survived people is higher than the actual proportion.
   
   
-## Stock Price Dashboard
+## 2. Stock Price Dashboard
 
 **_Description_**
 
@@ -60,7 +60,7 @@ Three representative and successful technology companies are selected for this p
   
 ![dash](Stock Price Dashboard/dashboard.png)
 
-## Recommendation System
+## 3. Recommendation System
 
 
   **Description**
@@ -73,14 +73,14 @@ Three representative and successful technology companies are selected for this p
   
  **Steps**
  
-  1.run Create_DataBase.py
+    1.run Create_DataBase.py
     _Create_DataBase.py_ is used to create database project.db
     
-  2.run project B.py
+    2.run project B.py
     _Prject B.py_ is used to build up _followee1_matrix.csv_, _follower1_matrix.csv_ and _interest1_matrix.csv_
     
-  3.run Model1.py and Model2.py
+    3.run Model1.py and Model2.py
     These tow files are used to build Models with two different algorithms.
     
-  4.run Recommendation Engine.py
+    4.run Recommendation Engine.py
     The final deliverable recommendation engine will the model with better performance.
