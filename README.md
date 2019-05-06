@@ -36,3 +36,30 @@ After 6 iteration, the clustering is fixed, the plot below shows the outcome of 
 **_Notes_**
 
   There are 179 missing values in the original dataset, which takes a considerably big part of the dataset. The method that I chose to deal with the missing value is to delete them. however, after deleting the missing value, the outcome will be affected in some way. For example, the not survived people contributes majority of the missing value, so the outcome will be biased towards the survived people. And the proportion of survived people is higher than the actual proportion.
+  
+  
+##Stock Price Dashboard
+
+**_Describtion_**
+
+This project aims to create a real-time updating dashboard to show the variation of stock prices in certain period and to predict stock prices based on historical data; also use **NLP(natural language processing)** to perform sentiment analyses regarding the news related to the companies.
+
+Three representative and successful technology companies are selected for this project - Google, Microsoft and Tsla.
+
+  **Database**
+  There are 3 databases in total - _stock.db, new_stock3.db_, and _recommend.db_ 
+  schedule is used to make it run automatically to collect daily stock price every two minute.
+
+  **NLP** 
+  _MSFT.py, TSLA.py_ and _GOOGLE.py_ perform sentiment analylsis by scrawling five most relevant news online and labeling   every sentences with neutral, positive or negative.
+  
+  **Predict**
+  _Predict_Stock_Price.py_ is to predict the change of stock price with **Support Vector Regression**
+  
+  **Recommand Score**
+  _Recommend_Score.py_ is to calculate and display the score of recommandation for buying, holding or selling selected company's stocks.
+
+  **Dashborad**
+  _dashboard_new.py_ creates the final dashboard which is comprised by current stock price, historical stock price, sentiment analysis and recommendation score.
+
+
