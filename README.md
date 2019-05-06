@@ -30,8 +30,8 @@ After 6 iteration, the clustering is fixed, the plot below shows the outcome of 
 
 ![titanic](Titanic/lastiteration6.png)
 
-- Blue represents **Survived**
-- Green represents **Not Survived**
+-Blue represents **Survived**
+-Green represents **Not Survived**
 
 **_Notes_**
 
