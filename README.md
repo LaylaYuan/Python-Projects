@@ -60,3 +60,27 @@ Three representative and successful technology companies are selected for this p
   
 ![dash](Stock Price Dashboard/dashboard.png)
 
+## Recommendation System
+
+
+  **Description**
+  This project aims to create a recommendation system for a socail media company to increase users connectivity by recommending users to follow. 
+  We designed two algorithms by ourselves and select the one with better performance to execute in our system. 
+  
+  1. Find the people who have the highest similarity with the followees that the user already follow.
+  
+  2. Find the people who have the highest similarity with the user himself.
+  
+ **Steps**
+ 
+  1.run Create_DataBase.py
+    _Create_DataBase.py_ is used to create database project.db
+    
+  2.run project B.py
+    _Prject B.py_ is used to build up _followee1_matrix.csv_, _follower1_matrix.csv_ and _interest1_matrix.csv_
+    
+  3.run Model1.py and Model2.py
+    These tow files are used to build Models with two different algorithms.
+    
+  4.run Recommendation Engine.py
+    The final deliverable recommendation engine will the model with better performance.
